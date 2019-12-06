@@ -29,16 +29,22 @@ module.exports.http = {
     *                                                                          *
     ***************************************************************************/
 
-    // order: [
-    //   'cookieParser',
-    //   'session',
-    //   'bodyParser',
-    //   'compress',
-    //   'poweredBy',
-    //   'router',
-    //   'www',
-    //   'favicon',
-    // ],
+    nuxt: (req, res) => {
+      // Build in development
+      return sails.config.nuxt.render(req, res);
+    },
+
+    order: [
+      'cookieParser',
+      'session',
+      'bodyParser',
+      'compress',
+      'poweredBy',
+      'router',
+      'nuxt',
+      'www',
+      'favicon',
+    ],
 
 
     /***************************************************************************
