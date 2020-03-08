@@ -1,8 +1,8 @@
 {
-  "name": "template-sails-nuxt-vuetify",
+  "name": "administratio",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "Sistema básico de administração de pequenos negócios",
   "keywords": [],
   "dependencies": {
     "@nuxtjs/axios": "^5.8.0",
@@ -40,7 +40,19 @@
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
     "debug": "node debug app.js",
-    "dev": "node app.js --development"
+    "dev": "nodemon"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*",
+      "client/*",
+      ".tmp",
+      ".nuxt",
+      ".git"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    }
   },
   "main": "app.js",
   "repository": {
@@ -50,6 +62,6 @@
   "author": "Leano Macel",
   "license": "",
   "engines": {
-    "node": "^13.2"
+    "node": "^12.15"
   }
 }
