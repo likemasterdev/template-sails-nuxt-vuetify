@@ -1,6 +1,6 @@
-# template-sails-nuxt-vuetify
+# Modelo Sails.js Nuxt.js Vuetify
 
-Template para aplicações [Sails v1](https://sailsjs.com)
+Template para aplicações web [Sails v1](https://sailsjs.com)
 
 
 ### Links
@@ -11,10 +11,28 @@ Template para aplicações [Sails v1](https://sailsjs.com)
 + [Community support options](https://sailsjs.com/support)
 + [Professional / enterprise options](https://sailsjs.com/enterprise)
 
+### Pacotes Globais
 
-### Version info
+`yarn global add sails nodemon eslint (recomendado)`
+ou
+`npm install -g sails nodemon eslint`
 
-This app was originally generated on Fri Dec 06 2019 12:03:29 GMT-0300 (Horário Padrão de Brasília) using Sails v1.2.3.
+### Uso
+
+`git clone https://github.com/likemasterdev/template-sails-nuxt-vuetify.git novo-projeto`
+`cd novo projeto`
+
+`yarn (recomendado)`
+ou
+`npm install`
+
+`yarn dev`
+ou
+`npm run dev (recomendado)`
+
+### informações de versão
+
+Essa é uma versão usada para agilizar a criação de aplicações web
 
 <!-- Internally, Sails used [`sails-generate@1.16.13`](https://github.com/balderdashy/sails-generate/tree/v1.16.13/lib/core-generators/new). -->
 
