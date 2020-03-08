@@ -27,7 +27,7 @@ ou
 
 `yarn (recomendado)` ou `npm install`
 
-`yarn dev` ou `npm run dev (recomendado)`
+`yarn dev (recomendado)` ou `npm run dev`
 
 ### Informações de versão
 
