@@ -25,17 +25,9 @@ ou
 
 `cd novo projeto`
 
-`yarn (recomendado)`
+`yarn (recomendado)` ou `npm install`
 
-ou
-
-`npm install`
-
-`yarn dev`
-
-ou
-
-`npm run dev (recomendado)`
+`yarn dev` ou `npm run dev (recomendado)`
 
 ### Informações de versão
 
