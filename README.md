@@ -14,23 +14,30 @@ Template para aplicações web [Sails v1](https://sailsjs.com)
 ### Pacotes Globais
 
 `yarn global add sails nodemon eslint (recomendado)`
+
 ou
+
 `npm install -g sails nodemon eslint`
 
 ### Uso
 
 `git clone https://github.com/likemasterdev/template-sails-nuxt-vuetify.git novo-projeto`
+
 `cd novo projeto`
 
 `yarn (recomendado)`
+
 ou
+
 `npm install`
 
 `yarn dev`
+
 ou
+
 `npm run dev (recomendado)`
 
-### informações de versão
+### Informações de versão
 
 Essa é uma versão usada para agilizar a criação de aplicações web
 
