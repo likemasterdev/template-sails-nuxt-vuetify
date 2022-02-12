@@ -28,7 +28,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-module": "^1.1.0",
     "@nuxtjs/vuetify": "^1.9.1",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "eslint": "5.16.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
